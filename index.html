@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Check it out!!MyChrome</title>
+    <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="browserStyles.css">
+    <script src="renderer.js"></script>
+  </head>
+  <body >
+    <div id="handle" draggable="true">My Google Chrome</div>
+      <div id="container">
+        <div id="urlbar">
+          <ul id="tabbar">
+            <li class="tab active">http://github.com</li>
+
+          </ul>
+          <input value="http://github.com" id="urlinput" />
+          <button id="visit">Visit</button>
+          <button id="newtab">New Tab</button>
+        </div>
+      </div>
+      <div id="container viewss">
+        <webview src="https://github.com" class="container view active" id="views"></webview>
+      </div>
+      <audio id="boom" src="boom.wav"></audio>
+    
+  </body>
+</html> 

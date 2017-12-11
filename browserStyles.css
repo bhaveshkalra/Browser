@@ -1,0 +1,30 @@
+#handle{
+    background-color:orange;
+
+    color:green;
+
+}
+[draggable=true]{
+    cursor:move;
+}
+#container{
+    height:25%;
+    margin-top:20px;
+}
+li{
+    list-style-type: none;
+    color:red;
+}
+
+#views{
+    height:600px;
+    width:100%;
+    overflow:hidden;
+    scroll-behavior: none;
+}
+.resizable {
+    overflow: scroll;
+    resize: both;
+    max-width: 300px;
+    max-height: 460px;
+}
