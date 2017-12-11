@@ -11,9 +11,7 @@ To clone and run this repository you'll first need npm and node.js installed on 
 
 ```bash
 # Clone this repository
-git clone https://github.com/electron/electron-quick-start
-# Go into the repository
-cd electron-quick-start
+git clone https://github.com/bhaveshkalra/Browser
 # Install dependencies
 npm install
 # Run the app
